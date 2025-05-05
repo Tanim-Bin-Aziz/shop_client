@@ -10,13 +10,13 @@ import slide4 from "../../../assets/home/slide4.jpg";
 
 const Category = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className=" bg-base-200 rounded-2xl mb-10">
+      <div className="hero-content flex-col lg:flex-row-reverse ">
         <Swiper
           effect={"cards"}
           grabCursor={true}
           modules={[EffectCards]}
-          className="mySwiper mb-16"
+          className="mySwiper mb-16 mt-10"
         >
           <SwiperSlide>
             <img src={slide1} alt="" />
@@ -35,8 +35,8 @@ const Category = () => {
             <h2 className=" -mt-22 text-center text-black">Salad</h2>
           </SwiperSlide>
         </Swiper>
-        <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
+        <div className="md:ml-20 ">
+          <h1 className="text-5xl font-bold">Explore Our New Menu!</h1>
           <p className="py-6 mr-5">
             Pizza: Wood-fired with melty cheese and fresh toppings. <br />
             Salads: Crisp greens with tangy dressings. <br /> Desserts: Rich,
