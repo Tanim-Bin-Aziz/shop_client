@@ -9,7 +9,7 @@ import img5 from "../../../assets/home/05.png";
 import img6 from "../../../assets/home/06.png";
 const Banner = () => {
   return (
-    <div>
+    <div className="text-center">
       <Carousel>
         <div>
           <img src={img1} />
