@@ -3,13 +3,13 @@ import featuredImg from "../../../assets/home/featured.jpg";
 import "./Featured.css";
 const Featured = () => {
   return (
-    <div className="featured text-white rounded-xl mb-10 pt-10">
+    <div className="featured bg-fixed text-white rounded-xl mb-10 pt-10 ">
       <SectionTitle
         subHeading={"check it out"}
         heading={"Featured Item"}
       ></SectionTitle>
 
-      <div className="md:flex justify-center items-center py-20 px-36">
+      <div className="md:flex justify-center items-center py-20 px-36 bg-slate-500/30 rounded-xl">
         <div>
           <img className="rounded-xl" src={featuredImg} alt="" />
         </div>
@@ -22,7 +22,9 @@ const Featured = () => {
             dolores dolore eveniet sit, magnam natus culpa. Hic doloribus
             accusantium saepe?
           </p>
-          <button className="btn btn-soft btn-error">Read More</button>
+          <button className="btn btn-soft btn-error border-0 border-b-4 mt-3">
+            Read More
+          </button>
         </div>
       </div>
     </div>
