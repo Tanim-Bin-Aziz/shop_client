@@ -1,18 +1,19 @@
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import featuredImg from "../../../assets/home/featured.jpg";
+import "./Featured.css";
 const Featured = () => {
   return (
-    <div>
+    <div className="featured text-white rounded-xl mb-10 pt-10">
       <SectionTitle
         subHeading={"check it out"}
         heading={"Featured Item"}
       ></SectionTitle>
 
-      <div className="md:flex justify-center items-center py-10 px-16">
+      <div className="md:flex justify-center items-center py-20 px-36">
         <div>
           <img className="rounded-xl" src={featuredImg} alt="" />
         </div>
-        <div>
+        <div className="md:ml-10">
           <p>May 14, 2025</p>
           <p className="uppercase">where can i get some </p>
           <p>
