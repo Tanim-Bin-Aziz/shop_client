@@ -1,4 +1,4 @@
-{
+      {
   "name": "shop-client",
   "private": true,
   "version": "0.0.0",
@@ -22,7 +22,7 @@
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.22.0",                        
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
